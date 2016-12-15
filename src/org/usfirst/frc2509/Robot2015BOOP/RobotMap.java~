@@ -51,11 +51,10 @@ public class RobotMap {
         subsystem1RobotDrive21.setSensitivity(0.5);
         subsystem1RobotDrive21.setMaxOutput(1.0);
 
-        
-guideGuideDBL_Solenoid = new DoubleSolenoid(2,3);
+guideGuideDBL_Solenoid = new DoubleSolenoid(0, 2, 3);
         LiveWindow.addActuator("Guide", "GuideDBL_Solenoid", guideGuideDBL_Solenoid);
         
-gripsGripDBL_Solenoid = new DoubleSolenoid(0,1);
+gripsGripDBL_Solenoid = new DoubleSolenoid(0, 0, 1);
         LiveWindow.addActuator("Grips", "GripDBL_Solenoid", gripsGripDBL_Solenoid);
         
 

@@ -12,11 +12,10 @@
 package org.usfirst.frc2509.Robot2015BOOP;
 
 import org.usfirst.frc2509.Robot2015BOOP.commands.*;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.*;
-
-import org.usfirst.frc2509.Robot2015BOOP.subsystems.*;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 
 /**
